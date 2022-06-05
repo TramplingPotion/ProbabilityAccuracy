@@ -1,12 +1,9 @@
 import java.util.*;
 
-public class Main { //10% range of probability
+public class Main {
 
-    /**
-     * @param args the command line arguments
-     */
     public static void main(String[] args) {
-        int win = 1;
+        int win = 1;//win score
         int winChance = 74;//win chance percentage
         int range = 100;//100 test as limit in percentage
         int accuracy = 100;//Test run to increase accuracy(higher accuracy more accurate, max 1000000)
